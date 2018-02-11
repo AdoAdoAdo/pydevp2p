@@ -1,4 +1,4 @@
-pyelliptic==1.5.7
+https://github.com/AdoAdoAdo/pyelliptic/tarball/master
 wheel
 gevent>=1.1.0
 bitcoin
