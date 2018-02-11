@@ -1,4 +1,4 @@
-https://github.com/AdoAdoAdo/pyelliptic/tarball/master
+https://github.com/AdoAdoAdo/pyelliptic/tarball/openssl_1_1
 wheel
 gevent>=1.1.0
 bitcoin

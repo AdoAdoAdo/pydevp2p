@@ -13,7 +13,7 @@ history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 install_requires = set(x.strip() for x in open('requirements.txt'))
 install_requires_replacements = {
-    'https://github.com/AdoAdoAdo/pyelliptic/tarball/master': 'pyelliptic',
+    'https://github.com/AdoAdoAdo/pyelliptic/tarball/openssl_1_1': 'pyelliptic',
 }
 install_requires = [install_requires_replacements.get(r, r) for r in install_requires]
 
@@ -23,7 +23,7 @@ test_requirements = [
     'pytest-timeout==1.0.0'
 ]
 test_require_replacements = {
-    'https://github.com/AdoAdoAdo/pyelliptic/tarball/master': 'pyelliptic'
+    'https://github.com/AdoAdoAdo/pyelliptic/tarball/openssl_1_1': 'pyelliptic'
 }
 test_requirements = [test_require_replacements.get(r, r) for r in test_requirements]
 
